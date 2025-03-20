@@ -44,7 +44,7 @@
       <a href="index.html" class="logo d-flex align-items-center">
         <!-- Uncomment the line below if you also wish to use an image logo -->
         <!-- <img src="assets/img/logo.png" alt=""> -->
-        <h1 class="sitename">Active.</h1>
+        <h1 class="sitename">HaloJeremia.com</h1>
       </a>
 
       <nav id="navmenu" class="navmenu">
@@ -116,7 +116,7 @@
               </script>
               <div class="swiper-wrapper">
                 <div class="swiper-slide">
-                  <img src="assets/img/img_h_6.jpg" alt="Image" class="img-fluid">
+                  <img src="assets/img/foto.jpg" alt="Image" class="img-fluid">
                 </div>
                 <div class="swiper-slide">
                   <img src="assets/img/img_h_7.jpg" alt="Image" class="img-fluid">
