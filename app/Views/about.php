@@ -50,12 +50,12 @@
 
       <nav id="navmenu" class="navmenu">
         <ul>
-          <li><a href="index.html">Home</a></li>
-          <li><a href="about.html" class="active">About</a></li>
-          <li><a href="services.html">Services</a></li>
-          <li><a href="portfolio.html">Portfolio</a></li>
-          <li><a href="team.html">Team</a></li>
-          <li><a href="blog.html">Blog</a></li>
+          <li><a href="<?= base_url('/') ?>">Home</a></li>
+          <li><a href="<?= base_url('about') ?>" class="active">About</a></li>
+          <li><a href="<?= base_url('services') ?>">Services</a></li>
+          <li><a href="<?= base_url('portofolio') ?>">Portofolio</a></li>
+          <li><a href="<?= base_url('team') ?>">Team</a></li>
+          <li><a href="<?= base_url('blog') ?>">Blog</a></li>
           <li class="dropdown"><a href="#"><span>Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
             <ul>
               <li><a href="#">Dropdown 1</a></li>
@@ -73,7 +73,7 @@
               <li><a href="#">Dropdown 4</a></li>
             </ul>
           </li>
-          <li><a href="contact.html">Contact</a></li>
+          <li><a href="<?= base_url('contact') ?>">Contact</a></li>
         </ul>
         <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
       </nav>
@@ -89,7 +89,7 @@
         <h1>About</h1>
         <nav class="breadcrumbs">
           <ol>
-            <li><a href="index.html">Home</a></li>
+            <li><a href="<?= base_url('/') ?>">Home</a></li>
             <li class="current">About</li>
           </ol>
         </nav>
