@@ -5,7 +5,7 @@
 <head>
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
-  <title>About - Active Bootstrap Template</title>
+  <title>HaloJeremia.com </title>
   <meta name="description" content="">
   <meta name="keywords" content="">
 
@@ -42,10 +42,10 @@
   <header id="header" class="header d-flex align-items-center sticky-top">
     <div class="container-fluid container-xl position-relative d-flex align-items-center justify-content-between">
 
-      <a href="index.html" class="logo d-flex align-items-center">
+      <a href="<?= base_url('/') ?>" class="logo d-flex align-items-center">
         <!-- Uncomment the line below if you also wish to use an image logo -->
         <!-- <img src="assets/img/logo.png" alt=""> -->
-        <h1 class="sitename">Active.</h1>
+        <h1 class="sitename">HaloJeremia.com</h1>
       </a>
 
       <nav id="navmenu" class="navmenu">
@@ -53,7 +53,7 @@
           <li><a href="<?= base_url('/') ?>">Home</a></li>
           <li><a href="<?= base_url('about') ?>" class="active">About</a></li>
           <li><a href="<?= base_url('services') ?>">Services</a></li>
-          <li><a href="<?= base_url('portofolio') ?>">Portofolio</a></li>
+          <li><a href="<?= base_url('portfolio') ?>">Portofolio</a></li>
           <li><a href="<?= base_url('team') ?>">Team</a></li>
           <li><a href="<?= base_url('blog') ?>">Blog</a></li>
           <li class="dropdown"><a href="#"><span>Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>

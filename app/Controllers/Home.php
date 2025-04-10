@@ -16,9 +16,9 @@ class Home extends BaseController
     {
         return view('services');
     }
-    public function portofolio()
+    public function portfolio()
     {
-        return view('portofolio');
+        return view('portfolio');
     }
     public function team()
     {
