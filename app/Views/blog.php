@@ -51,9 +51,7 @@
         <ul>
         <li><a href="<?= base_url('/') ?>">Home</a></li>
           <li><a href="<?= base_url('about') ?>">About</a></li>
-          <li><a href="<?= base_url('services') ?>">Services</a></li>
           <li><a href="<?= base_url('portfolio') ?>">Portofolio</a></li>
-          <li><a href="<?= base_url('team') ?>">Team</a></li>
           <li><a href="<?= base_url('blog') ?>" class="active">Blog</a></li>
           <li class="dropdown"><a href="#"><span>Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
             <ul>
@@ -106,18 +104,18 @@
             <article>
 
               <div class="post-img">
-                <img src="assets/img/blog/blog-1.jpg" alt="" class="img-fluid">
+                <img src="assets/img/uiux.jpg" alt="" class="img-fluid">
               </div>
 
               <div class="meta-top">
                 <ul>
-                  <li class="d-flex align-items-center"><a href="blog-details.html">Sorts</a></li>
+                  <li class="d-flex align-items-center"><a href="blog-details.html">Tips</a></li>
                   <li class="d-flex align-items-center"><i class="bi bi-dot"></i> <a href="blog-details.html"><time datetime="2022-01-01">Jan 1, 2022</time></a></li>
                 </ul>
               </div>
 
               <h2 class="title">
-                <a href="<?= base_url('blog-detail/slug') ?>">Dolorum optio tempore voluptas dignissimos</a>
+                <a href="<?= base_url('blog-detail/slug') ?>">5 Tips Mendesain UI yang Efektif</a>
               </h2>
 
             </article>
@@ -128,18 +126,18 @@
             <article>
 
               <div class="post-img">
-                <img src="assets/img/blog/blog-2.jpg" alt="" class="img-fluid">
+                <img src="assets/img/flutter.png" alt="" class="img-fluid">
               </div>
 
               <div class="meta-top">
                 <ul>
-                  <li class="d-flex align-items-center"><a href="blog-details.html">Fashion</a></li>
+                  <li class="d-flex align-items-center"><a href="blog-details.html">Coding</a></li>
                   <li class="d-flex align-items-center"><i class="bi bi-dot"></i> <a href="blog-details.html"><time datetime="2022-01-01">Jan 1, 2022</time></a></li>
                 </ul>
               </div>
 
               <h2 class="title">
-                <a href="<?= base_url('blog-detail/slug') ?>">Nisi magni odit consequatur autem nulla dolorem</a>
+                <a href="<?= base_url('blog-detail/slug') ?>">Membangun Aplikasi To-Do List dengan Flutter</a>
               </h2>
 
             </article>
@@ -151,18 +149,18 @@
             <article>
 
               <div class="post-img">
-                <img src="assets/img/blog/blog-3.jpg" alt="" class="img-fluid">
+                <img src="assets/img/tools.png" alt="" class="img-fluid">
               </div>
 
               <div class="meta-top">
                 <ul>
-                  <li class="d-flex align-items-center"><a href="blog-details.html">Laws</a></li>
+                  <li class="d-flex align-items-center"><a href="blog-details.html">Tips</a></li>
                   <li class="d-flex align-items-center"><i class="bi bi-dot"></i> <a href="blog-details.html"><time datetime="2022-01-01">Jul 5, 2022</time></a></li>
                 </ul>
               </div>
 
               <h2 class="title">
-                <a href="<?= base_url('blog-detail/slug') ?>">Possimus soluta ut id suscipit soluta</a>
+                <a href="<?= base_url('blog-detail/slug') ?>">6 tools membuat ui ux</a>
               </h2>
 
             </article>
@@ -175,23 +173,7 @@
 
     </section><!-- /Blog Posts 2 Section -->
 
-    <!-- Blog Pagination Section -->
-    <section id="blog-pagination" class="blog-pagination section">
 
-      <div class="container">
-        <div class="d-flex justify-content-center">
-          <ul>
-            <li><a href="#"><i class="bi bi-chevron-left"></i></a></li>
-            <li><a href="#">1</a></li>
-            <li><a href="#" class="active">2</a></li>
-            <li><a href="#">3</a></li>
-            <li><a href="#">4</a></li>
-            <li>...</li>
-            <li><a href="#">10</a></li>
-            <li><a href="#"><i class="bi bi-chevron-right"></i></a></li>
-          </ul>
-        </div>
-      </div>
 
     </section><!-- /Blog Pagination Section -->
 
@@ -232,11 +214,11 @@
             <h3 class="widget-heading">Recent Posts</h3>
             <ul class="list-unstyled footer-blog-entry">
               <li>
-                <span class="d-block date">May 3, 2020</span>
+                <span class="d-block date">April 21, 2025</span>
                 <a href="#">There live the Blind Texts</a>
               </li>
               <li>
-                <span class="d-block date">May 3, 2020</span>
+                <span class="d-block date">April 21, 2025</span>
                 <a href="#">Separated they live in Bookmarksgrove right</a>
               </li>
             </ul>
@@ -247,19 +229,10 @@
             <h3 class="widget-heading">Connect</h3>
             <ul class="list-unstyled social-icons light mb-3">
               <li>
-                <a href="#"><span class="bi bi-facebook"></span></a>
+                <a href="https://www.instagram.com/je.prtma?igsh=aHdyd3BqNjBobjI="><span class="bi bi-instagram"></span></a>
               </li>
               <li>
-                <a href="#"><span class="bi bi-twitter-x"></span></a>
-              </li>
-              <li>
-                <a href="#"><span class="bi bi-linkedin"></span></a>
-              </li>
-              <li>
-                <a href="#"><span class="bi bi-google"></span></a>
-              </li>
-              <li>
-                <a href="#"><span class="bi bi-google-play"></span></a>
+                <a href="https://www.linkedin.com/in/jeremia-adi-488157293?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><span class="bi bi-linkedin"></span></a>
               </li>
             </ul>
           </div>

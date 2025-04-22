@@ -51,9 +51,7 @@
         <ul>
         <li><a href="<?= base_url('/') ?>">Home</a></li>
           <li><a href="<?= base_url('about') ?>">About</a></li>
-          <li><a href="<?= base_url('services') ?>">Services</a></li>
           <li><a href="<?= base_url('portfolio') ?>">Portofolio</a></li>
-          <li><a href="<?= base_url('team') ?>">Team</a></li>
           <li><a href="<?= base_url('blog') ?>">Blog</a></li>
           <li class="dropdown"><a href="#"><span>Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
             <ul>
@@ -105,14 +103,14 @@
           <div class="col-lg-4">
 
             <div class="info">
-              <h3>Get in touch</h3>
-              <p>Et id eius voluptates atque nihil voluptatem enim in tempore minima sit ad mollitia commodi minus.</p>
+              <h3>kritik dan saran</h3>
+              <p>jika ada kritik dan saran silakan hubungi saya lewat nomor atau email di bawah, atau langsung tulis pesan anda di kolom di samping</p>
 
               <div class="info-item d-flex">
                 <i class="bi bi-geo-alt flex-shrink-0"></i>
                 <div>
                   <h4>Location:</h4>
-                  <p>A108 Adam Street, New York, NY 535022</p>
+                  <p>Perumahan Raja Basa indah, Jl. Pramuka, Gg. Cancer No.25, Rajabasa, Kota Bandar Lampung </p>
                 </div>
               </div><!-- End Info Item -->
 
@@ -120,7 +118,8 @@
                 <i class="bi bi-envelope flex-shrink-0"></i>
                 <div>
                   <h4>Email:</h4>
-                  <p>info@example.com</p>
+                  <p>jeremiaadipratama21@gmail.com</p>
+                  <p>jadipratama21@gmail.com</p>
                 </div>
               </div><!-- End Info Item -->
 
@@ -128,7 +127,7 @@
                 <i class="bi bi-phone flex-shrink-0"></i>
                 <div>
                   <h4>Call:</h4>
-                  <p>+1 5589 55488 55</p>
+                  <p>+62 878 9793 9739</p>
                 </div>
               </div><!-- End Info Item -->
 
@@ -204,11 +203,11 @@
             <h3 class="widget-heading">Recent Posts</h3>
             <ul class="list-unstyled footer-blog-entry">
               <li>
-                <span class="d-block date">May 3, 2020</span>
+                <span class="d-block date">April 21, 2025</span>
                 <a href="#">There live the Blind Texts</a>
               </li>
               <li>
-                <span class="d-block date">May 3, 2020</span>
+                <span class="d-block date">April 21, 2025</span>
                 <a href="#">Separated they live in Bookmarksgrove right</a>
               </li>
             </ul>
@@ -219,19 +218,10 @@
             <h3 class="widget-heading">Connect</h3>
             <ul class="list-unstyled social-icons light mb-3">
               <li>
-                <a href="#"><span class="bi bi-facebook"></span></a>
+                <a href="https://www.instagram.com/je.prtma?igsh=aHdyd3BqNjBobjI="><span class="bi bi-instagram"></span></a>
               </li>
               <li>
-                <a href="#"><span class="bi bi-twitter-x"></span></a>
-              </li>
-              <li>
-                <a href="#"><span class="bi bi-linkedin"></span></a>
-              </li>
-              <li>
-                <a href="#"><span class="bi bi-google"></span></a>
-              </li>
-              <li>
-                <a href="#"><span class="bi bi-google-play"></span></a>
+                <a href="https://www.linkedin.com/in/jeremia-adi-488157293?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><span class="bi bi-linkedin"></span></a>
               </li>
             </ul>
           </div>
