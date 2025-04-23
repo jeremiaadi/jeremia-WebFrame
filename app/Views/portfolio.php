@@ -106,7 +106,7 @@
             <li data-filter=".filter-product">Sertifikat</li>
           </ul><!-- End Portfolio Filters -->
 
-          <div class="row gy-4 isotope-container" data-aos="fade-up" data-aos-delay="200">
+          <div class="row gy-4 isotope-container" data-aos="fade-up" data-aos-delay="300">
 
             <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
               <img src="assets/img/portfolio/todolist.png" class="img-fluid" alt="">
@@ -164,13 +164,6 @@
                 <p>seminar tentang teknologi pertanian</p>
                 <a href="assets/img/portfolio/pertanian.jpg" title="Product 3" data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
               </div>
-            </div><!-- End Portfolio Item -->
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
-              <img src="assets/img/portfolio/english.jpg" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4>Pelatihan Bahasa Inggris</h4>
-                <p>Pelatihan bahasa inggris ekstrakulikuler yang di adakan UPT Bahasa Universitas Lampung</p>
-                <a href="assets/img/portfolio/english.jpg" title="Product 4" data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
             </div>
             <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
               <img src="assets/img/portfolio/41.jpg" class="img-fluid" alt="">
@@ -178,8 +171,32 @@
                 <h4>Impression 2023</h4>
                 <p>Olimpiade IT tingkat SMA/SMK sedrajat se-Sumbagsel, Oleh Formatif FKIP UNILA</p>
                 <a href="assets/img/portfolio/41.jpg" title="Product 5" data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-            </div><!-- End Portfolio Item -->
-
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
+              <img src="assets/img/portfolio/english.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Pelatihan Bahasa Inggris</h4>
+                <p>Pelatihan bahasa inggris ekstrakulikuler yang di adakan UPT Bahasa Universitas Lampung</p>
+                <a href="assets/img/portfolio/english.jpg" title="Product 4" data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+               </div>
+            </div>
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
+              <img src="assets/img/portfolio/48.png" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Kepanitiaan Kopma</h4>
+                <p>menjadi panitia dia acara pendidikan dasar koprasi mahasiswa universitas lampung</p>
+                <a href="assets/img/portfolio/48.png" title="Product 6" data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+               </div>
+            </div>
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
+              <img src="assets/img/portfolio/media.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Media Tutoring 2023</h4>
+                <p>menjadi panitia dia acara pelatihan kemediaan oleh HIMASAKTA FKIP universitas lampung</p>
+                <a href="assets/img/portfolio/media.jpg" title="Product 6" data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+               </div>
+            </div>
           </div><!-- End Portfolio Container -->
 
         </div>
@@ -226,11 +243,11 @@
             <h3 class="widget-heading">Recent Posts</h3>
             <ul class="list-unstyled footer-blog-entry">
               <li>
-                <span class="d-block date">May 3, 2020</span>
+                <span class="d-block date">April 21, 2025</span>
                 <a href="#">There live the Blind Texts</a>
               </li>
               <li>
-                <span class="d-block date">May 3, 2020</span>
+                <span class="d-block date">April 21, 2025</span>
                 <a href="#">Separated they live in Bookmarksgrove right</a>
               </li>
             </ul>
@@ -241,19 +258,10 @@
             <h3 class="widget-heading">Connect</h3>
             <ul class="list-unstyled social-icons light mb-3">
               <li>
-                <a href="#"><span class="bi bi-facebook"></span></a>
+                <a href="https://www.instagram.com/je.prtma?igsh=aHdyd3BqNjBobjI="><span class="bi bi-instagram"></span></a>
               </li>
               <li>
-                <a href="#"><span class="bi bi-twitter-x"></span></a>
-              </li>
-              <li>
-                <a href="#"><span class="bi bi-linkedin"></span></a>
-              </li>
-              <li>
-                <a href="#"><span class="bi bi-google"></span></a>
-              </li>
-              <li>
-                <a href="#"><span class="bi bi-google-play"></span></a>
+                <a href="https://www.linkedin.com/in/jeremia-adi-488157293?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><span class="bi bi-linkedin"></span></a>
               </li>
             </ul>
           </div>

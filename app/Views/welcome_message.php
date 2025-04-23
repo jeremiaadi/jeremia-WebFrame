@@ -169,7 +169,7 @@
               Saya memiliki ketertarikan dalam dunia pengembangan web, khususnya di bagian front end.
             </p>
             <p>
-              <a href="#" class="btn-get-started">Lihat Portofolio</a>
+              <a href="<?= base_url('portfolio') ?>" class="btn-get-started">Lihat Portofolio</a>
             </p>
           </div>
         </div>

@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>Dashboard Blog</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      padding: 20px;
+      background-color: #f4f4f4;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      background-color: #fff;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    }
+    th, td {
+      padding: 12px;
+      text-align: left;
+      border-bottom: 1px solid #ddd;
+    }
+    th {
+      background-color: #f8f8f8;
+    }
+    img {
+      width: 80px;
+      height: auto;
+    }
+    .actions button {
+      margin-right: 5px;
+      padding: 5px 10px;
+      border: none;
+      cursor: pointer;
+      border-radius: 5px;
+    }
+    .view { background-color: #3498db; color: white; }
+    .edit { background-color: #f39c12; color: white; }
+    .delete { background-color: #e74c3c; color: white; }
+    .add-btn {
+      margin-bottom: 15px;
+      padding: 10px 20px;
+      background-color: #2ecc71;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Dashboard Blog</h1>
+  <button class="add-btn">+ Tambah Blog Baru</button>
+
+  <table>
+    <thead>
+      <tr>
+        <th>ID</th>
+        <th>Judul</th>
+        <th>Gambar</th>
+        <th>Isi</th>
+        <th>Aksi</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>1</td>
+        <td>Judul Pertama</td>
+        <td><img src="https://via.placeholder.com/80" alt="Gambar Blog"></td>
+        <td>Ini adalah isi singkat dari blog pertama...</td>
+        <td class="actions">
+          <button class="view">Lihat</button>
+          <button class="edit">Edit</button>
+          <button class="delete">Hapus</button>
+        </td>
+      </tr>
+      <!-- Baris lainnya bisa ditambahkan di sini -->
+    </tbody>
+  </table>
+
+</body>
+</html>

@@ -32,15 +32,17 @@ class Home extends BaseController
     {
         return view('contact');
     }
-    public function blogDetail($slug)
+    public function blogDetail()
     {
-        // Simulasi data artikel berdasarkan slug (bisa diambil dari database)
-        $data = [
-            'title' => "Detail Blog: " . ucfirst(str_replace('-', ' ', $slug)),
-            'content' => "Ini adalah isi dari artikel dengan slug: " . $slug
-        ];
-
-        return view('blog-detail', $data);
+        return view('blogdetail');
+    }
+    public function blogDetail2()
+    {
+        return view('blogdetail2');
+    }
+    public function blogDetail3()
+    {
+        return view('blogdetail3');
     }
 
 
