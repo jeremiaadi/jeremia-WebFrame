@@ -2,8 +2,16 @@
 
 namespace App\Controllers;
 
+use App\Models\BlogModel;
+
+
 class Home extends BaseController
 {
+    protected $blogModel;
+    public function __construct()
+    {
+        $this->blogModel = new BlogModel();
+    }
     public function index(): string
     {
         return view('welcome_message', ['current_page' => 'home']);
@@ -24,25 +32,34 @@ class Home extends BaseController
     {
         return view('team');
     }
-    public function blog()
-    {
-        return view('blog');
-    }
+    
     public function contact()
     {
         return view('contact');
     }
-    public function blogDetail()
+    
+    public function blog()
     {
-        return view('blogdetail');
+        // $blog = $this->blogModel->findAll();
+
+        $data = [
+            'blog' => $this->blogModel->getBlog()
+        ];
+
+        return view('blog', $data);
     }
-    public function blogDetail2()
+
+    public function detail($slug)
+
     {
-        return view('blogdetail2');
-    }
-    public function blogDetail3()
-    {
-        return view('blogdetail3');
+        // $blog = $this->blogModel->findAll();
+
+        $data = [
+            'blog' => $this->blogModel->getBlog($slug),
+            'recent_blog' => $this->blogModel->getBlog()
+        ];
+
+        return view('/blog-detail',$data);
     }
 
 

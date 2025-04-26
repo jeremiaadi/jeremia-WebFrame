@@ -9,8 +9,8 @@
   <meta name="keywords" content="">
 
   <!-- Favicons -->
-  <link href="assets/img/favicon.png" rel="icon">
-  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+  <link href="<?= base_url('assets/img/favicon.png') ?>" rel="icon">
+  <link href="<?= base_url('assets/img/apple-touch-icon.png') ?>" rel="apple-touch-icon">
 
   <!-- Fonts -->
   <link href="https://fonts.googleapis.com" rel="preconnect">
@@ -18,14 +18,16 @@
   <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
 
   <!-- Vendor CSS Files -->
-  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
-  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
-  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
-  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="<?= base_url('assets/vendor/bootstrap/css/bootstrap.min.css') ?>" rel="stylesheet">
+  <link href="<?= base_url('assets/vendor/bootstrap-icons/bootstrap-icons.css') ?>" rel="stylesheet">
+  <link href="<?= base_url('assets/vendor/aos/aos.css') ?>" rel="stylesheet">
+  <link href="<?= base_url('assets/vendor/swiper/swiper-bundle.min.css') ?>" rel="stylesheet">
+  <link href="<?= base_url('assets/vendor/glightbox/css/glightbox.min.css') ?>" rel="stylesheet">
 
   <!-- Main CSS File -->
-  <link href="assets/css/main.css" rel="stylesheet">
+  <link href="<?= base_url('assets/css/main.css') ?>" rel="stylesheet">
+</head>
+
 
   <!-- =======================================================
   * Template Name: Active
@@ -36,15 +38,16 @@
   ======================================================== -->
 </head>
 
-<body class="blog-page">
+<body class="blog-details-page">
+
 
   <header id="header" class="header d-flex align-items-center sticky-top">
     <div class="container-fluid container-xl position-relative d-flex align-items-center justify-content-between">
 
-      <a href="<?= base_url('/') ?>" class="logo d-flex align-items-center">
+      <a href="index.html" class="logo d-flex align-items-center">
         <!-- Uncomment the line below if you also wish to use an image logo -->
         <!-- <img src="assets/img/logo.png" alt=""> -->
-        <h1 class="sitename">HaloJeremia.com</h1>
+        <h1 class="sitename">HaloJeremia.com </h1>
       </a>
 
       <nav id="navmenu" class="navmenu">
@@ -52,7 +55,7 @@
         <li><a href="<?= base_url('/') ?>">Home</a></li>
           <li><a href="<?= base_url('about') ?>">About</a></li>
           <li><a href="<?= base_url('portfolio') ?>">Portofolio</a></li>
-          <li><a href="<?= base_url('blog') ?>" class="active">Blog</a></li>
+          <li><a href="<?= base_url('blog') ?>">Blog</a></li>
           <li class="dropdown"><a href="#"><span>Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
             <ul>
               <li><a href="#">Dropdown 1</a></li>
@@ -70,7 +73,7 @@
               <li><a href="#">Dropdown 4</a></li>
             </ul>
           </li>
-          <li><a href="<?= base_url('contact') ?>">Contact</a></li>
+          <li><a href="contact.html">Contact</a></li>
         </ul>
         <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
       </nav>
@@ -83,103 +86,104 @@
     <!-- Page Title -->
     <div class="page-title light-background">
       <div class="container">
-        <h1>Blog</h1>
+        <h1>Blog Details</h1>
         <nav class="breadcrumbs">
           <ol>
-            <li><a href="<?= base_url('/') ?>">Home</a></li>
-            <li class="current">Blog</li>
+            <li><a href="index.html">Home</a></li>
+            <li class="current">Blog Details</li>
           </ol>
         </nav>
       </div>
     </div><!-- End Page Title -->
 
-    <!-- Blog Posts 2 Section -->
-    <section id="blog-posts-2" class="blog-posts-2 section">
+    <div class="container">
+      <div class="row">
 
-      <div class="container">
+        <div class="col-lg-8">
 
-        <div class="row gy-5">
+        
+          <section id="blog-details" class="blog-details section">
+            <div class="container">
 
-          <div class="col-lg-4 col-md-6">
-            <article>
+              <article class="article">
 
-              <div class="post-img">
-                <img src="assets/img/uiux.jpg" alt="" class="img-fluid">
-              </div>
-              
+                <div class="post-img">
+                  <img src="<?= $blog['gambar']; ?>" alt="" class="img-fluid">
+                </div>
 
-              <div class="meta-top">
-                <ul>
-                  <li class="d-flex align-items-center"><a href="blog-details.html">Tips</a></li>
-                  <li class="d-flex align-items-center"><i class="bi bi-dot"></i> <a href="blog-details.html"><time datetime="2022-01-01">Jan 1, 2022</time></a></li>
-                </ul>
-              </div>
-              <?php foreach ($blog as $b): ?>
-    <a href="/detail/<?= $b['slug']; ?>"><?= $b['judul']; ?></a>
-<?php endforeach; ?>
-              <h2 class="title">
-                <a href="/blog-detail/"></a>
-              </h2>
+                <h2 class="title"><?= $blog['judul']; ?></h2>
+                
 
-            </article>
-          </div><!-- End post list item -->
+                <div class="meta-top">
+                  <ul>
+                    <li class="d-flex align-items-center"><i class="bi bi-person"></i> <a href="blog-details.html">John Doe</a></li>
+                    <li class="d-flex align-items-center"><i class="bi bi-clock"></i> <a href="blog-details.html"><time datetime="2020-01-01">Jan 1, 2022</time></a></li>
+                    <li class="d-flex align-items-center"><i class="bi bi-chat-dots"></i> <a href="blog-details.html">12 Comments</a></li>
+                  </ul>
+                </div><!-- End meta top -->
 
-          <div class="col-lg-4 col-md-6">
+                <div class="content">
+                  <p>
+                    Similique neque nam consequuntur ad non maxime aliquam quas. Quibusdam animi praesentium. Aliquam et laboriosam eius aut nostrum quidem aliquid dicta.
+                    Et eveniet enim. Qui velit est ea dolorem doloremque deleniti aperiam unde soluta. Est cum et quod quos aut ut et sit sunt. Voluptate porro consequatur assumenda perferendis dolore.
+                  </p>
 
-            <article>
+                  <p>
+                    Sit repellat hic cupiditate hic ut nemo. Quis nihil sunt non reiciendis. Sequi in accusamus harum vel aspernatur. Excepturi numquam nihil cumque odio. Et voluptate cupiditate.
+                  </p>
 
-              <div class="post-img">
-                <img src="assets/img/flutter.png" alt="" class="img-fluid">
-              </div>
+                  <blockquote>
+                    <p>
+                      Et vero doloremque tempore voluptatem ratione vel aut. Deleniti sunt animi aut. Aut eos aliquam doloribus minus autem quos.
+                    </p>
+                  </blockquote>
 
-              <div class="meta-top">
-                <ul>
-                  <li class="d-flex align-items-center"><a href="blog-details.html">Coding</a></li>
-                  <li class="d-flex align-items-center"><i class="bi bi-dot"></i> <a href="blog-details.html"><time datetime="2022-01-01">Jan 1, 2022</time></a></li>
-                </ul>
-              </div>
+                  <p>
+                    Sed quo laboriosam qui architecto. Occaecati repellendus omnis dicta inventore tempore provident voluptas mollitia aliquid. Id repellendus quia. Asperiores nihil magni dicta est suscipit perspiciatis. Voluptate ex rerum assumenda dolores nihil quaerat.
+                    Dolor porro tempora et quibusdam voluptas. Beatae aut at ad qui tempore corrupti velit quisquam rerum. Omnis dolorum exercitationem harum qui qui blanditiis neque.
+                    Iusto autem itaque. Repudiandae hic quae aspernatur ea neque qui. Architecto voluptatem magni. Vel magnam quod et tempora deleniti error rerum nihil tempora.
+                  </p>
 
-              <?php foreach ($blog as $b): ?>
-    <a href="/detail/<?= $b['slug']; ?>"><?= $b['judul']; ?></a>
-<?php endforeach; ?>
+                  <h3>Et quae iure vel ut odit alias.</h3>
+                  <p>
+                    Officiis animi maxime nulla quo et harum eum quis a. Sit hic in qui quos fugit ut rerum atque. Optio provident dolores atque voluptatem rem excepturi molestiae qui. Voluptatem laborum omnis ullam quibusdam perspiciatis nulla nostrum. Voluptatum est libero eum nesciunt aliquid qui.
+                    Quia et suscipit non sequi. Maxime sed odit. Beatae nesciunt nesciunt accusamus quia aut ratione aspernatur dolor. Sint harum eveniet dicta exercitationem minima. Exercitationem omnis asperiores natus aperiam dolor consequatur id ex sed. Quibusdam rerum dolores sint consequatur quidem ea.
+                    Beatae minima sunt libero soluta sapiente in rem assumenda. Et qui odit voluptatem. Cum quibusdam voluptatem voluptatem accusamus mollitia aut atque aut.
+                  </p>
+                  <img src="assets/img/blog/blog-inside-post.jpg" class="img-fluid" alt="">
 
+                  <h3>Ut repellat blanditiis est dolore sunt dolorum quae.</h3>
+                  <p>
+                    Rerum ea est assumenda pariatur quasi et quam. Facilis nam porro amet nostrum. In assumenda quia quae a id praesentium. Quos deleniti libero sed occaecati aut porro autem. Consectetur sed excepturi sint non placeat quia repellat incidunt labore. Autem facilis hic dolorum dolores vel.
+                    Consectetur quasi id et optio praesentium aut asperiores eaque aut. Explicabo omnis quibusdam esse. Ex libero illum iusto totam et ut aut blanditiis. Veritatis numquam ut illum ut a quam vitae.
+                  </p>
+                  <p>
+                    Alias quia non aliquid. Eos et ea velit. Voluptatem maxime enim omnis ipsa voluptas incidunt. Nulla sit eaque mollitia nisi asperiores est veniam.
+                  </p>
 
-            </article>
+                </div><!-- End post content -->
 
-          </div><!-- End post list item -->
+                <div class="meta-bottom">
+                  <i class="bi bi-folder"></i>
+                  <ul class="cats">
+                    <li><a href="#">Business</a></li>
+                  </ul>
 
-          <div class="col-lg-4 col-md-6">
+                  <i class="bi bi-tags"></i>
+                  <ul class="tags">
+                    <li><a href="#">Creative</a></li>
+                    <li><a href="#">Tips</a></li>
+                    <li><a href="#">Marketing</a></li>
+                  </ul>
+                </div><!-- End meta bottom -->
 
-            <article>
+              </article>
 
-              <div class="post-img">
-                <img src="assets/img/tools.png" alt="" class="img-fluid">
-              </div>
-
-              <div class="meta-top">
-                <ul>
-                  <li class="d-flex align-items-center"><a href="blog-details.html">Tips</a></li>
-                  <li class="d-flex align-items-center"><i class="bi bi-dot"></i> <a href="blog-details.html"><time datetime="2022-01-01">Jul 5, 2022</time></a></li>
-                </ul>
-              </div>
-
-              <?php foreach ($blog as $b): ?>
-    <a href="/detail/<?= $b['slug']; ?>"><?= $b['judul']; ?></a>
-<?php endforeach; ?>
-
-            </article>
-
-          </div><!-- End post list item -->
-
-        </div><!-- End blog posts list -->
-
-      </div>
-
-    </section><!-- /Blog Posts 2 Section -->
-
+            </div>
+          </section>
 
 
-    </section><!-- /Blog Pagination Section -->
+          
 
   </main>
 
